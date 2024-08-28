@@ -1,0 +1,429 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(67, 167, 167);
+}
+
+#cabecalho h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    font-size: 25px;
+}
+
+#carousel .carousel-caption h2 {
+    color: rgb(229, 255, 0);
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+    font-style: italic;
+}
+
+.navbar-toggler {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-empresa, #produtos {
+    background-color: rgb(164, 238, 238);
+}
+
+#destinos .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+}
+
+.produtos .nav-link:hover {
+    color: rgb(67, 167, 167);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: rgb(67, 167, 167);
+}
+
+#promocoes h2 {
+    padding-top: 10px;
+}
+
+#promocoes .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#promocoes .card img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#promocoes .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+}
+
+#promocoes .card .price,
+#promocoes .card .btn {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+#promocoes .card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+#promocoes .card .btn {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+#container-photos h2 {
+    padding: 20px;
+}
+
+#destinos,
+#container-photos {
+    background-color: rgb(164, 238, 238);
+}
+
+#destinos h2 {
+    padding-top: 10px;
+}
+
+.nav-destinos .nav-link {
+    color: rgb(67, 167, 167);
+    background-color: rgb(164, 238, 238);
+    border-radius: 4px;
+}
+
+.nav-destinos .nav-link.active {
+    color: #fff;
+    background-color: rgb(67, 167, 167);
+}
+
+.nav-destinos .nav-link:hover {
+    color: #fff;
+    background-color: rgb(67, 167, 167);
+}
+
+#destinos .col-md-10 .card {
+    height: 300px;
+}
+
+#destinos .col-md-10 .card img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#destinos .col-md-10 .card .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+#destinos .col-md-10 .card p {
+    margin-bottom: 20px;
+}
+
+#destinos .col-md-10 .card .btn {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.tab-pane .btn-custom {
+    border-radius: 4px;
+}
+
+.btn-custom-green {
+    background-color: rgb(67, 167, 167) !important;
+    color: #fff !important;
+    border: none;
+    font-weight: bold !important;
+}
+
+.btn-custom-green:hover {
+    background-color: #1ebe57 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.btn-primary {
+    background-color: rgb(67, 167, 167) !important;
+    border-color: rgb(67, 167, 167) !important;
+}
+
+.btn-primary:hover {
+    background-color: #25D366 !important;
+    border-color: #25D366 !important;
+}
+
+.btn-primary:active {
+    background-color: rgb(67, 167, 167) !important;
+    border-color: rgb(67, 167, 167) !important;
+}
+
+#container-photos .card-body {
+    max-width: 100%;
+    height: 200px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.price {
+    margin: 10px 0;
+}
+
+#fale-conosco h2 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#fale-conosco .btn-whatsapp {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+    border-color: #25D366;
+}
+
+#fale-conosco .btn-whatsapp:hover {
+    background-color: #1ebe57;
+    border-color: #1ebe57;
+}
+
+#fale-conosco .btn-whatsapp:active {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+    border-color: #25D366;
+}
+
+form button {
+    display: block;
+    width: 100px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(67, 167, 167);
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.container-footer p {
+    align-items: center;
+    margin: 0;
+}
+
+.toast-custom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1055;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.toast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+}
+
+.toast-body {
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+.btn-close {
+    margin-right: -10px;
+}
+
+.btn-success {
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+@media screen and (max-width: 640px) {
+
+#promocoes .col-3 {
+    overflow: hidden;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+#destinos .col-3 {
+    width: 100%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+#container-photos .card-body {
+    padding: 20px auto;
+    height: 500px;
+}
+}
+
+@media screen and (max-width: 575px) {
+
+    #carousel .carousel-caption h2 {
+        font-size: 10px;
+        transform: translateY(32px);
+        color: #fff;
+    }
+
+    #carousel .carousel-indicators {
+        bottom: 10px;
+        transform: translateY(35px);
+    }
+
+    #container-photos .card-body {
+        max-width: 100%;
+        height: auto;
+        padding: 1rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    }
+
+@media screen and (min-width: 576px) {
+
+#container-photos .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 1rem;
+}
+
+#container-photos .card-body .btn-primary {
+    margin-bottom: 10px;
+}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+#promocoes .row.mt-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#promocoes .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+#promocoes .card {
+    margin: 0 10px;
+}
+
+#promocoes p {
+    font-size: 14px;
+}
+
+#destinos .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#destinos aside button.nav-link {
+    font-size: 14px;
+}
+
+#container-photos .carousel-item .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#container-photos .carousel-item .col-lg-3 {
+    flex: 1 1 40%;
+    max-width: 50%;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    #carousel .carousel-caption h2 {
+    font-size: 30px;
+    color: rgb(247, 0, 255);
+    }
+
+    .botao-menu {
+        display: none
+    }
+
+    #promocoes p {
+        font-size: 14px;
+    }
+}

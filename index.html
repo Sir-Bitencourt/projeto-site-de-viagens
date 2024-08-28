@@ -1,0 +1,926 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom flight | Sua agência de viagens online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" sizes="270x270" href="./imagens/Head/woman-8587090_1280.png" type="image/jpg" />
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1>Freedom flight</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block  d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-empresa" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a empresa</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-credit-card-2-front me-1"></i>
+                            Promoções</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destinos" class="nav-link">
+                            <i class="bi bi-airplane-engines me-1"></i>
+                            Destinos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="body" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/carousel/hallstatt-3609863_1280.jpg" alt="Hallstatt, Áustria, Lago da montanha">
+                        <div class="carousel-caption">
+                            <h2>Hallstatt - Áustria</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/carousel/river-6824576_1280.jpg" alt="Kiev, Ucrania, Avenida costeira">
+                        <div class="carousel-caption">
+                            <h2>Kiev - Ucrania</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/carousel/santorini-4825173_1280.jpg" alt="Santorini, Grécia, Oceano">
+                        <div class="carousel-caption">
+                            <h2>Santorini - Grécia</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/carousel/rio-4348017_1280.jpg" alt="Rio de janeiro, Brasil, Pão de açucar">
+                        <div class="carousel-caption">
+                            <h2>Rio de janeiro - Brasil</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/carousel/warnemunde-8079731_1280.jpg" alt="warnemunde, Alemanha, Cais do farol">
+                        <div class="carousel-caption">
+                            <h2>Warnemunde - Alemanha</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/carousel/dinant-2220459_1280.jpg" alt="Dinant, Bélgica, Casas a beira-mar">
+                        <div class="carousel-caption">
+                            <h2>Dinant - Bélgica</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/empresa/call-center-8754751_1920.jpg" class="d-block w-100 rounded" alt="Acessando uma agência de viagens online">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Venha viver novas experiências conosco</h2>
+                            <br>
+                            <p>
+                                Na Freedom flight, acreditamos que viajar é mais do que apenas visitar novos lugares ...
+                                é sobre criar memórias inesquecíveis, explorar culturas vibrantes e descobrir novas perspectivas. 
+                                Fundada em 2000, nossa missão é tornar o planejamento da sua viagem fácil, acessível 
+                                e personalizado.
+                            </p>
+                            <p>
+                                Com uma equipe apaixonada por viagens e anos de experiência no mercado, oferecemos uma ampla 
+                                gama de serviços para atender às suas necessidades, desde pacotes de férias completos até 
+                                reservas de hotéis, passagens aéreas, e experiências locais. Trabalhamos com os melhores 
+                                parceiros ao redor do mundo para garantir que cada detalhe da sua viagem seja impecável.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <p>
+                                Nossa plataforma online intuitiva foi projetada para facilitar o processo de escolha e 
+                                reserva de suas viagens, permitindo que você planeje cada etapa com confiança. Além disso, 
+                                nossa equipe de atendimento ao cliente está disponível 24/7 para oferecer suporte personalizado, 
+                                garantindo que você tenha uma experiência tranquila do início ao fim.
+                            </p>
+                            <p>
+                                Com a Freedom Flight, seu próximo destino dos sonhos está a apenas alguns cliques de distância. 
+                                Venha descobrir o mundo conosco!
+                            </p>
+                            <br>
+                            <h2 class="section-title">Freedom Flight ... qual seu proximo destino ?</h2>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./imagens/empresa/composition-8144882_1920.jpg" class="d-block w-100 rounded" alt="Avião decolando">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Promoções</h2>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Madrid - Espanha
+                            </div>
+                            <div id="carouselMadrid" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./imagens/promocoes/Madrid 1.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Madrid 2.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Madrid 3.jpg" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMadrid" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMadrid" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Elegância européia</h5>
+                                <h6 class="card-subtitle">Condições imperdíveis</h6>
+                                <br>
+                                <p>Madri, a capital da Espanha, situada no centro do país, é uma cidade de avenidas 
+                                    elegantes e parques grandes e bem cuidados, como o Buen Retiro. Ela é famosa pelos ricos 
+                                    acervos de arte europeia, entre os quais estão as obras de Goya, Velázquez e outros mestres
+                                    espanhóis no Museu do Prado. O centro da antiga Madri da época da Casa de Habsburgo é a 
+                                    Plaza Mayor, ladeada por pórticos, e nas proximidades ficam o barroco Palácio Real e o 
+                                    Arsenal Real, que exibe armas históricas.</p>
+                                <div class="price">
+                                    <h6>A partir de </h6><strong>R$ 0,00</strong>
+                                </div>
+                                <a href="#fale-conosco" class="btn btn-primary">Reserve agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Fortaleza, Ceará - Brasil
+                            </div>
+                            <div id="carouselFortaleza" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./imagens/promocoes/Fortaleza 1.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Fortaleza 2.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Fortaleza 3.jpg" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFortaleza" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselFortaleza" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Um paraíso chamado Canoa quebrada</h5>
+                                <h6 class="card-subtitle">Venha passar as férias aqui</h6>
+                                <br>
+                                <p>Fortaleza é a capital do estado do Ceará, no Nordeste brasileiro. A cidade é conhecida 
+                                    por suas praias, com falésias vermelhas, palmeiras, dunas e lagoas. As tradições folclóricas 
+                                    da cidade podem ser vistas em apresentações de dança no Theatro José de Alencar, construção 
+                                    em estilo art nouveau inaugurada em 1910. Outro destaque arquitetônico é a Catedral 
+                                    Metropolitana, em estilo neogótico.</p>
+                                <div class="price">
+                                    <h6>A partir de </h6><strong>R$ 0,00</strong>
+                                </div>
+                                <a href="#fale-conosco" class="btn btn-primary">Reserve agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Montreal - Canadá
+                            </div>
+                            <div id="carouselMontreal" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./imagens/promocoes/Montreal 1.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Montreal 2.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Montreal 3.jpg" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMontreal" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMontreal" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">A beleza de Montreal</h5>
+                                <h6 class="card-subtitle">Descontos especiais para esse destino</h6>
+                                <br>
+                                <p>Maior cidade da província de Quebec, no Canadá. Ela fica em uma ilha no 
+                                    rio São Lourenço e foi batizada em homenagem ao Monte Royal, uma montanha com três colinas 
+                                    localizada no centro da cidade. Muitos dos seus bairros já foram cidades independentes, 
+                                    com estilos que variam do francês colonial de Vieux-Montréal, com ruas pavimentadas com 
+                                    pedras arredondadas e a gótica Basílica de Notre-Dame no centro, ao boêmio Plateau.</p>
+                                <div class="price">
+                                    <h6>A partir de </h6><strong>R$ 0,00</strong>
+                                </div>
+                                <a href="#fale-conosco" class="btn btn-primary">Reserve agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Disney - Estados Unidos
+                            </div>
+                            <div id="carouselDisney" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./imagens/promocoes/Disney 1.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Disney 2.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./imagens/promocoes/Disney 3.jpg" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDisney" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselDisney" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">O parque mais famoso do mundo</h5>
+                                <h6 class="card-subtitle">Viva essa experiência</h6>
+                                <br>
+                                <p>A Disney foi fundada em 16 de outubro de 1923, por Walt Disney e Roy Oliver Disney com 
+                                    o nome de Disney Brothers Cartoon Studios e estabeleceu-se como pioneira na indústria 
+                                    de animação e parques temáticos. Qual é o diferencial da Disney? O principal diferencial 
+                                    da Disney é que a empresa conquista fãs, não clientes. Ou seja, as pessoas não consomem 
+                                    Disney, elas amam a Disney e esperam ansiosas por qualquer movimento da marca.</p>
+                                <div class="price">
+                                    <h6>A partir de </h6><strong>R$ 0,00</strong>
+                                </div>
+                                <a href="#fale-conosco" class="btn btn-primary">Reserve agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Destinos mais procurados
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-destinos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nacionais" class="fw-bold text-start nav-link text-colored active">Destinos nacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#internacionais" class="fw-bold text-start nav-link text-colored">Destinos internacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cruzeiros" class="fw-bold text-start nav-link text-colored">Cruzeiros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="nacionais">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/caldas-novas.jpg" alt="Caldas novas"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Caldas novas</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Pacotes promocionais</h6>
+                                                <br>
+                                                <p>Relaxe na maior estância hidrotermal do mundo.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/canela-gramado-serra-gaucha-1.jpg" alt="Serra gaúcha"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Serra gaúcha</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Várias opções diponíveis</h6>
+                                                <br>
+                                                <p>Charme europeu no sul do Brasil.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/Maceió.jpg" alt="Maceió"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Maceió</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Poucos pacotes disponíveis</h6>
+                                                <br>
+                                                <p>Paraíso onde o sol brilha o ano inteiro.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/porto-de-galinhas-vista-1170x650.jpg" alt="Porto de galinhas"/>
+                                            <div class="card-img-overlay">
+                                                <h5 class="card-title">Porto de galinhas</h5>
+                                                <br>
+                                                <h6 class="card-subtitle">Imperdível</h6>
+                                                <br>
+                                                <p>Praias paradisíacas em um cenário encantador.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/natal.jpg" alt="Natal"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Natal</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Não fique de fora</h6>
+                                                <br>
+                                                <p>Dunas e praias paradisíacas te esperam na capital do sol.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens//destinos/nacionais/porto-seguro.jpg" alt="Porto seguro"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Porto seguro</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Venha conferir</h6>
+                                                <br>
+                                                <p>Lugar de praias paradisíacas e alegria contagiante.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/rio-de-janeiro.jpg" alt="Rio de Janeiro"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Rio de Janeiro</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Aproveite hoje</h6>
+                                                <br>
+                                                <p>Cidade Maravilhosa, natureza exuberante e muita energia.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/nacionais/Teresina-Piauí.jpg" alt="Teresina"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Teresina</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Em promoção</h6>
+                                                <br>
+                                                <p>Calorosa capital do Piauí, de cultura nordestina e belezas naturais.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="internacionais">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Arch-France-6356637_1280.jpg" alt="Paris"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Paris</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Poucos pacotes disponíveis</h6>
+                                                <br>
+                                                <p>Centro mundial de arte, moda, gastronomia e cultura.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Basel-Suisse-4429691_1280.jpg" alt="Basel"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Basiléia</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Reservas promocionais</h6>
+                                                <br>
+                                                <p>Onde a cultura floresce às margens do Reno.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Monaco.jpg" alt="Monaco"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Monaco</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">ùltimos pacotes</h6>
+                                                <br>
+                                                <p>O glamour encontra a Riviera em um principado de conto de fadas.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/New-York-buildings-1850129_1280.jpg" alt="Nova Iorque"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Nova Iorque</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Promoções imperdíveis</h6>
+                                                <br>
+                                                <p>A cidade que nunca dorme, onde os sonhos se tornam realidade.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Queensland.jpg" alt="Queensland"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Queensland</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Destino muito procurado</h6>
+                                                <br>
+                                                <p>Um paraíso onde a Grande Barreira de Coral encontra 
+                                                a exuberante floresta tropical.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Riad.jpg" alt="Riad"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Riad</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Poucos pacotes disponíveis</h6>
+                                                <br>
+                                                <p>Mergulhe na rica história e cultura Arabe em sua vibrante capital.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Capadocia.jpg" alt="Capadócia"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Capadócia</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">Preços promocionais</h6>
+                                                <br>
+                                                <p>Uma paisagem surreal de chaminés de fada e voos de balão inesquecíveis.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/internacionais/Washington.jpg" alt="Washington"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Washington</h4>
+                                                <br>
+                                                <h6 class="card-subtitle">vàrias opções de pacotes</h6>
+                                                <br>
+                                                <p>Monumentos icônicos e história viva na capital dos Estados Unidos.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cruzeiros">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/Cruzeiros/Icon of The Seas.jpg" alt="Icon of The Seas"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Icon of The Seas</h4>
+                                                <p>Reserve já, restam poucas cabines.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/Cruzeiros/Norwegian Breakaway.jpg" alt="Norwegian Breakaway"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Norwegian Breakaway</h4>
+                                                <p>Cabines em promoção.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/Cruzeiros/Norwegian Getaway.jpg" alt="Norwegian Getaway"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Norwegian Getaway</h4>
+                                                <p>Camarotes all inclusive disponíveis.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card text-bg-dark mb-4">
+                                            <img src="./imagens/destinos/Cruzeiros/Symphony of the Seas.jpg" alt="Symphony of the Seas"/>
+                                            <div class="card-img-overlay">
+                                                <h4 class="card-title">Symphony of the Seas</h4>
+                                                <p>Saída em breve.</p>
+                                                <a href="#fale-conosco" class="btn btn-primary">Confira</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button class="btn btn-custom-green" data-bs-toggle="modal" data-bs-target="#exemplo-modal">
+            <p>Já adquiriu suan viagem ? </p>
+            <p> Então temos uma mensagem importante para você - clique aqui</p>
+        </button>
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Antes de embarcar ...</h5>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>Atenção às datas das passagens e horários.</li>
+                            <li>Fique de olho nos documentos.</li>
+                            <li>Atenção para as malas e excesso de bagagem.</li>
+                            <li>Escolha roupas confortáveis para o vôo.</li>
+                            <li>Chegue com antecedência no aeroporto.</li>
+                            <li>Após o check-in, localize e se dirija ao seu portão de embarque</li>
+                            <br>
+                            <h5>E boa Viagem !!!</h5>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-title text-center mb-5" id="container-photos">
+            <h2>Veja relatos de nossos clientes ...</h2>
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <div class="row mx-2">
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            St. Moritz - Suíça
+                                        </header>
+                                        <img src="./imagens/clientes/family-4610864_1920.jpg" alt="Alpes Suíços" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Visita aos Alpes</h4>
+                                            <p>"Experiência incrível !"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Cape Town - Africa do Sul
+                                        </header>
+                                        <img src="./imagens/clientes/elephants-279505_1920.jpg" alt="Safari em Cape Town" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Safari na Africa</h4>
+                                            <p>"É lindo demais, me emocionei"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Recife - Brasil
+                                        </header>
+                                        <img src="./imagens/clientes/praia-6398107_1920.jpg" alt="Praia de Boa Viagem" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Praia de Boa Viagem</h4>
+                                            <p>"Um verdadeiro paraíso na terra"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Atenas - Grécia
+                                        </header>
+                                        <img src="./imagens/clientes/maternity-7890356_1920.jpg" alt="Férias em Atenas" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Férias em Atenas</h4>
+                                            <p>"Eu e minha família amamos"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <div class="row mx-2">
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Liverpool - Inglaterra
+                                        </header>
+                                        <img src="./imagens/clientes/Liverpool-6960579_1920.jpg" alt="Passeio por Liverpool" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Passeio por Liverpool</h4>
+                                            <p>"Sempre tive vontade de retratar essa icônica foto !"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Yantai - China
+                                        </header>
+                                        <img src="./imagens/clientes/china-2602324_1920.jpg" alt="Conhecendo Yantai" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Conhecendo Yantai</h4>
+                                            <p>"Um lugar milenar, inesquecível"</p>
+                                            <br>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Munique - Alemanha
+                                        </header>
+                                        <img src="./imagens/clientes/germany-5932230_1920.jpg.crdownload" alt="As ruas de Munique" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">As ruas de Munique</h4>
+                                            <p>"É histórico passear por aqui"</p>
+                                            <br>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Ceará - Brasil
+                                        </header>
+                                        <img src="./imagens/clientes/fortaleza-78245_1920.jpg" alt="Passeio mágico no Ceará" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Passeio em Canoa Quebrada</h4>
+                                            <p>"Não queriamos ir embora nunca mais"</p>
+                                            <a href="#" class="btn btn-primary">Leia mais</a>
+                                        </div>
+                                        <footer class="card-footer">
+                                            Postado em <time>00/00/2024 às 23:00</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+        </div>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Entre em contato conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form action="http://127.0.0.1:5501/index.html#sobre-a-empresa" method="get">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Nome completo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="e-mail" class="form-control" placeholder="email@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(__) _____-____" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-index"></i>
+                                Siga nossas redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua da Vitória Nº 321 - Bairro: Deus Vai Nos Conceder - São Paulo - SP</p>
+                        </div>
+                        <div class="row mt-3">
+                            <a href="#" class="btn btn-whatsapp fw-bold" data-bs-toggle="modal" data-bs-target="#whatsappModal">
+                                Atendentes disponíveis agora, faça seu orçamento
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="whatsappModalLabel">Fale com um atendente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Olá! Estamos prontos para ajudar você. Clique no botão abaixo para iniciar uma conversa 
+                            pelo WhatsApp com um de nossos atendentes.
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://wa.me/5511999999999" class="btn btn-success" target="_blank">
+                                <i class="bi bi-whatsapp"></i> Falar com um atendente
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer fw-bold">
+                <p>
+                    &copy; Freedom flight - sua agência de viagens online | Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
+    </div>
+    <div class="toast-container position-fixed top-50 start-50 translate-middle p-3" id="toastContainer">
+        <div id="promoToast" class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Promoções imperdíveis !!!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-center">
+                Procure nossos consultores.
+                <br>
+                <a href="#promocoes" id="promoBtn" class="btn btn-success mt-3">Conferir ofertas</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        const ativadorToast = document.getElementById('btn-checar-emails')
+        const mensagem = document.getElementById('mensagens-alerta')
+        if (ativadorToast){
+            ativadorToast.addEventListener('click', function(){
+                const toast = new bootstrap.Toast(mensagem)
+                toast.show()
+            })
+        };
+
+        window.onload = function () {
+    var toastElement = document.getElementById('promoToast');
+    var toast = new bootstrap.Toast(toastElement);
+    toast.show();
+
+    document.querySelectorAll('[data-bs-dismiss="toast"], #promoBtn').forEach(function (button) {
+        button.addEventListener('click', function () {
+            toast.hide();
+        });
+    });
+};
+    </script>
+</body>
+</html>
