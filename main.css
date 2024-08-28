@@ -262,6 +262,7 @@ footer {
 }
 
 .container-footer p {
+    text-align: center;
     align-items: center;
     margin: 0;
 }
